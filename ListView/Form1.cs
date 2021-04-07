@@ -28,12 +28,15 @@ namespace ListView
                 String[] strArray = new String[] { tbName.Text, tbPhone.Text, tbOrg.Text };
                 ListViewItem lvt = new ListViewItem(strArray);
                 listView1.Items.Add(lvt);
+                tbName.Clear();
+                tbPhone.Clear();
+                tbOrg.Clear();
             }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-
+            listView1.Items.RemoveAt(listView1.FocusedItem.Index);
         }
     }
 }
