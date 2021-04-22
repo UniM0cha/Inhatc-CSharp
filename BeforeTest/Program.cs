@@ -10,6 +10,10 @@ namespace BeforeTest
     {
         static void Main(string[] args)
         {
+            Puddle p = new Puddle();
+            p.Bark(1, 2);
+            p.Bark(1.1, 2.2);
+            p.Bark('a', 'b');
         }
     }
 
@@ -24,15 +28,16 @@ namespace BeforeTest
     class Puddle : Dog
     {
         public override void Bark() { }
+        public void Bark(int a) { }
+        //public void Bark(int a, int b) { }
         public void Bark(double a, double b) { }
     }
 
     abstract class SmartPhone
     {
-        public abstract void Camera();
+        public void Camera() { }
         public abstract void CallPhone();
         public abstract void NetWork();
-
     }
 
     public interface IUnit
@@ -40,4 +45,6 @@ namespace BeforeTest
         void Attack();
         void Move();
     }
+
+
 }
