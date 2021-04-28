@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextIO", "TextIO.csproj", "{6CFD2FF5-94FF-48F0-90F2-AC1CCE4ABB30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CFD2FF5-94FF-48F0-90F2-AC1CCE4ABB30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFD2FF5-94FF-48F0-90F2-AC1CCE4ABB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFD2FF5-94FF-48F0-90F2-AC1CCE4ABB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFD2FF5-94FF-48F0-90F2-AC1CCE4ABB30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC877B27-8E93-4D30-9C1E-C72D1F01D7D3}
+	EndGlobalSection
+EndGlobal

@@ -10,26 +10,37 @@ namespace BeforeTest
     {
         static void Main(string[] args)
         {
+<<<<<<< Updated upstream
             Puddle p = new Puddle();
             p.Bark(1, 2);
             p.Bark(1.1, 2.2);
             p.Bark('a', 'b');
+=======
+            string s = "123";
+            int i = int.Parse(s);
+
+>>>>>>> Stashed changes
         }
     }
 
     class Dog
     {
         private int eyes, nose, mouth, ears;
-        public virtual void Bark() { }
+
+
+        public void Bark() { }
         public void Bark(int a, int b) { }
         public void Bark(char a, char b) { }
     }
 
     class Puddle : Dog
     {
+<<<<<<< Updated upstream
         public override void Bark() { }
         public void Bark(int a) { }
         //public void Bark(int a, int b) { }
+=======
+>>>>>>> Stashed changes
         public void Bark(double a, double b) { }
     }
 
