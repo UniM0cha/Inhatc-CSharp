@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "시계", "시계.csproj", "{EC8FEB02-3BBD-4702-AAE2-7CAF04B6B2FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC8FEB02-3BBD-4702-AAE2-7CAF04B6B2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8FEB02-3BBD-4702-AAE2-7CAF04B6B2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8FEB02-3BBD-4702-AAE2-7CAF04B6B2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8FEB02-3BBD-4702-AAE2-7CAF04B6B2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D90E10AC-280A-4ECF-9F67-8F8584EDDF42}
+	EndGlobalSection
+EndGlobal
