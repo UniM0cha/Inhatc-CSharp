@@ -49,6 +49,7 @@ namespace WindowsFormsApp
             this.cbPay = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnPay = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -322,6 +323,7 @@ namespace WindowsFormsApp
         private System.Windows.Forms.ComboBox cbPay;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnPay;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 

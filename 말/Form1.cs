@@ -21,9 +21,9 @@ namespace 말
 
         private void button1_Click(object sender, EventArgs e)
         {
-            timer1.Enabled = true;
-            timer2.Enabled = true;
-            timer3.Enabled = true;
+            timer1.Enabled = true; timer1.Interval = 100;
+            timer2.Enabled = true; timer2.Interval = 100;
+            timer3.Enabled = true; timer3.Interval = 100;
         }
 
         private void timer1_Tick(object sender, EventArgs e)

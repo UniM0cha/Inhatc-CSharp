@@ -82,7 +82,11 @@ namespace WindowsFormsApp
 
         private void btnPay_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(cbPay.Text + "(으)로 " + lbArea.Text + "결제방법을\n선택하셨습니다.");
+            saveFileDialog1.Filter = "All Files|*.*|Text Files|*.txt";
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                textBox1.Text = saveFileDialog1.FileName + "파일을 저장합니다.";
+            }
         }
     }
 }
